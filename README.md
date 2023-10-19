@@ -20,7 +20,7 @@ get up and running quickly with DR analysis by *cloning this repo* in CodeOcean:
 
 ### for more-permanent, collaborative capsule development
 *create a new repo*, which can serve as the remote for one or more capsules:
-- just hit the big green button to "`Use this template`": a new repo will be created, after you decide on a name
+- just hit the big green button to "`Use this template`": a new repo will be created after you decide its name
 - follow the cloning instructions above and supply the link to your new repo
 - the capsule can now pull changes from github, so you can add code files directly to the github repo and pull them in codeocean
 - to push changes *from* codeocean:
@@ -29,7 +29,7 @@ get up and running quickly with DR analysis by *cloning this repo* in CodeOcean:
 
 ## credentials
 
-we need to ensure 2 sets of credentials are available in the capsule:
+we need to ensure two sets of credentials are available in the capsule:
 1. AWS (to find and read files on S3)
 2. Codeocean (to find processed data in "data assets" via the Codeocean API)
 
