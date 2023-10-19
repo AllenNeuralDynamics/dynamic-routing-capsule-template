@@ -4,6 +4,10 @@
 
 A codeocean capsule is a bit like a local git repository of files: it can be cloned from a remote (github), it tracks changes via commits, and it can push or pull commits from a remote.
 
+This template sets up a starting point for DR analysis capsules, with pinned dependencies for [`npc_sessions`](https://github.com/AllenInstitute/npc_sessions), to make initial capsule building faster. 
+
+It also contains a post-install script that updates to the latest version of `npc_sessions` **on every run or workstation launch**: the package is undergoing heavy development, so the latest version should always be used - just be aware that things may change (even within an NWB file).
+
 ### for throw-away analysis/exploration
 get up and running quickly with DR analysis by *cloning this repo* in CodeOcean:
 - open codeocean in a new tab [here](https://codeocean.allenneuraldynamics.org/).
