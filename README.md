@@ -16,7 +16,7 @@ get up and running quickly with DR analysis by *cloning this repo* in CodeOcean:
 - open codeocean in a new tab [here](https://codeocean.allenneuraldynamics.org/).
 - hit the `+` icon (top left) and select `"New Capsule" > "Clone from Git"` and paste the URL for this repo: `https://github.com/AllenNeuralDynamics/dynamic-routing-capsule-template`
 - the capsule should open at this readme
-- if you haven't done this before, follow the instructions in [`credentials`](credentials)
+- if you haven't done this before, follow the instructions in [`credentials`](#credentials)
 
 ### for more-permanent, collaborative capsule development
 *create a new repo*, which can serve as the remote for one or more capsules:
