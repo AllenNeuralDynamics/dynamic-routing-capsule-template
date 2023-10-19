@@ -2,23 +2,23 @@
 
 ## quickstart
 
-A codeocean capsule is a bit like a local git repository of files: it can be cloned from a remote (github), it has commits, and it can push or pull commits from the remote.
-    
-    ### for throw-away analysis/exploration
-    get up and running quickly with DR analysis by *cloning this repo* in CodeOcean:
-    - open codeocean in a new tab [here](https://codeocean.allenneuraldynamics.org/).
-    - hit the `+` icon (top left) and select `"New Capsule" > "Clone from Git"` and paste the URL for this repo: `https://github.com/AllenNeuralDynamics/dynamic-routing-capsule-template`
-    - the capsule should open at this readme
-    - if you haven't done this before, follow the instructions in `credentials`
+A codeocean capsule is a bit like a local git repository of files: it can be cloned from a remote (github), it tracks changes via commits, and it can push or pull commits from a remote.
 
-    ### for more-permanent, collaborative capsule development
-    *create a new repo*, which can serve as the remote for one or more capsules:
-    - just hit the big green button to "`Use this template`": a new repo will be created, after you decide on a name
-    - follow the `clone capsule` instructions above and supply the link to your new repo
-    - the capsule can now pull changes from github, so you can add code files directly to the github repo and pull them in codeocean
-    - to push changes *from* codeocean:
-        - generate a personal access token for your account in github
-        - add it to your account in codeocean 
+### for throw-away analysis/exploration
+get up and running quickly with DR analysis by *cloning this repo* in CodeOcean:
+- open codeocean in a new tab [here](https://codeocean.allenneuraldynamics.org/).
+- hit the `+` icon (top left) and select `"New Capsule" > "Clone from Git"` and paste the URL for this repo: `https://github.com/AllenNeuralDynamics/dynamic-routing-capsule-template`
+- the capsule should open at this readme
+- if you haven't done this before, follow the instructions in `credentials`
+
+### for more-permanent, collaborative capsule development
+*create a new repo*, which can serve as the remote for one or more capsules:
+- just hit the big green button to "`Use this template`": a new repo will be created, after you decide on a name
+- follow the `clone capsule` instructions above and supply the link to your new repo
+- the capsule can now pull changes from github, so you can add code files directly to the github repo and pull them in codeocean
+- to push changes *from* codeocean:
+    - generate a personal access token for your account in github
+    - add it to your account in codeocean 
 
 ## credentials
 
