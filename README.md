@@ -1,17 +1,18 @@
 # dynamic-routing-capsule-template
 
-## clone capsule in CodeOcean
+## quickstart
+    ### clone capsule in CodeOcean for throw-away analysis
 
-First off, open up Codeocean in a new tab [here](https://codeocean.allenneuraldynamics.org/).
+    - to get up and running quickly:
+        - open up Codeocean in a new tab [here](https://codeocean.allenneuraldynamics.org/).
+        - hit the `+` icon (top left) and select `"New Capsule" > "Clone from Git"` and paste the URL for this repo: `https://github.com/AllenNeuralDynamics/dynamic-routing-data-intro`
+        - the capsule should open at this readme: if you haven't done this before, follow the instructions in `credentials`
 
-- hit the `+` icon (top left) and select "New Capsule" > "Clone from Git" and paste the URL for this repo: `https://github.com/AllenNeuralDynamics/dynamic-routing-data-intro`
-- the capsule should open at this readme
-  
-## environment
-
-The environment should be set up and ready to go, but if you need to update it at some point, the only required package is `npc_sessions` (latest version).
-  
-Note: since `npc_sessions` has a lot of loosely specified dependencies, solving the environment for the capsule can take a while (pip tries to find a version of each dependency that's compatible with all the other dependencies - for certain packages this can lead to many minutues of waiting as pip downloads every published version of the package to test it). To speed this up, we publish a `requirements.txt` with pinned dependencies from a solved environment (for the latest version of Ubuntu x64) [here](https://github.com/AllenInstitute/npc_sessions/blob/main/requirements.txt). Codeocean allows uploading or pasting the contents of this file in `environment/pip3` - just make sure to add the latest version of `npc_sessions` too.
+    ### clone github repo for more-permanent, collaborative capsule development
+    - a codeocean capsule can use a github-hosted repo as a remote:
+        - just hit the big green button to "`Use this template`" as a starting point - the new repo you make will be the remote
+        - add a github access token to your codeocean account 
+        - in codeocean you can then push and pull from the github remote
 
 ## credentials
 
