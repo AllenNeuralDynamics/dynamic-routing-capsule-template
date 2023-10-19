@@ -1,5 +1,6 @@
 metadata_version: 1
 name: dynamic-routing-capsule-template
-description: Basic structure of a capsule to be customized as needed.
+description: A starter environment for processing and analysis, with required packages updated automatically.
 authors:
 - name: AIND
+- name: bjhardcastle
